@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+@font-face {
+	font-family: 'Monoton', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Monoton');
+}
+
+body {
+	position: relative;
+	background-image: url("https://i.imgur.com/FjyeNlw.png");
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-size: 80px;
+}
+
+
