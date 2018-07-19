@@ -3,16 +3,16 @@ import { NavLink } from "react-router-dom";
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavItem } from 'react-bootstrap';
-
+import './Navigation.css';
 
 const Navigation = () => {
 
     return (
       <div>
-        <Navbar>
+        <Navbar className="nav">
           <Navbar.Header>
 
-            <Navbar.Brand>
+            <Navbar.Brand className="homebase">
               <NavLink to="/">Homebase</NavLink>
             </Navbar.Brand>
 
@@ -31,7 +31,7 @@ const Navigation = () => {
                 </NavItem>
 
               </Nav>
-          </Navbar>;
+          </Navbar>
       </div>
     );
   };
