@@ -21,6 +21,7 @@ class homebase extends Component {
             id={cat.id}
             key={cat.id}
             name={cat.name}
+            class={cat.class}
             image={cat.image}
           />
         ))}
