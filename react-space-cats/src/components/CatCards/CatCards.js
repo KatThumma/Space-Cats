@@ -10,6 +10,10 @@ const CatCards = props => (
       <ul>
           <strong>Name:</strong> {props.name}
       </ul>
+      <ul>
+        <strong>Class:</strong>
+        {props.class}
+      </ul>
     </div>
   </div>
 );

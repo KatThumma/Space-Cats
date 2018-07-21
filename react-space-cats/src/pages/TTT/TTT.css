@@ -1,1 +1,18 @@
-/* CSS for Game1
+.gameHolder {
+    text-align: center;
+}
+
+.gameWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameBoard {
+    flex-basis: auto;
+}
+
+.moves {
+    flex-basis: auto
+}
+

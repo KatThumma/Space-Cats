@@ -2,18 +2,21 @@
     {
       "id": 1,
       "name": "Florpnorf",
+      "class": "Pilot",
       "image": "https://www.theyearinpictures.co.uk/images//image-placeholder.png"
     },
 
     {
       "id": 2,
       "name": "Hunglus",
+      "class": "Infantry",
       "image": "https://www.theyearinpictures.co.uk/images//image-placeholder.png"
     },
 
     {
       "id": 3,
       "name": "Meepmorp",
+      "class": "Captain",
       "image": "https://www.theyearinpictures.co.uk/images//image-placeholder.png"
     }
 ]
