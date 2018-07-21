@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 
 
-const gameOne = () => {
 
+class gameOne extends Component {
+
+  render() {
     return (
       <div>
               <div className="App">
@@ -12,6 +14,7 @@ const gameOne = () => {
         </div>
       </div>
     );
-  };
+  }
+};
 
   export default gameOne;

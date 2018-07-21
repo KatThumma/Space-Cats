@@ -8,9 +8,7 @@ const CatCards = props => (
     </div>
     <div className="content">
       <ul>
-        <li>
           <strong>Name:</strong> {props.name}
-        </li>
       </ul>
     </div>
   </div>
