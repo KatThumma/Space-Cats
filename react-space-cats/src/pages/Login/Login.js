@@ -1,11 +1,7 @@
 import React from "react";
 import { Component } from "react";
 
-// import { FormGroup } from 'react-bootstrap';
-// import { ControlLabel } from 'react-bootstrap';
-// import { FormControl } from 'react-bootstrap';
-// import { HelpBlock } from 'react-bootstrap';
-// import { Button } from 'react-bootstrap';
+import './Login.css';
 
 import {
   getFromStorage,
@@ -242,15 +238,15 @@ class login extends Component {
 
       if (!token) {
         return (
-          <div>
-            <div>
+          <div className="forms">
+            <div className="signIn">
                 {
                   (signInError) ? (
                     <p>{signInError}</p>
                   ) : (null)
                 }
 
-                <p>Sign In</p>
+                <h1>Sign In</h1>
                 <input 
                 type="email" 
                 placeholder="Email" 
@@ -267,13 +263,13 @@ class login extends Component {
             </div>
             <br/>
             <br/>
-            <div>
+            <div classname="signUp">
             {
                   (signUpError) ? (
                     <p>{signUpError}</p>
                   ) : (null)
                 }
-                <p>Sign Up</p>
+                <h1>Sign Up</h1>
                 <input 
                 type="firstName" 
                 placeholder="First Name" 
