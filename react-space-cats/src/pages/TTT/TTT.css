@@ -1,18 +1,9 @@
-.gameHolder {
-    text-align: center;
+.game {
+    border: 2px solid lightblue;
+    padding: 20px;
+    margin: 80px;
 }
 
-.gameWrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.game-board {
+    justify-content: center;
 }
-
-.gameBoard {
-    flex-basis: auto;
-}
-
-.moves {
-    flex-basis: auto
-}
-
