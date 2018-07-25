@@ -1,0 +1,10 @@
+button {
+    float: none;
+    margin: 20px;
+    font-size: 20px;
+    height:40px;
+    background: rgba(25, 25, 112, 0.582);
+    border: 1px solid hotpink;
+    letter-spacing: 4px;
+    border-radius: 40px;
+}

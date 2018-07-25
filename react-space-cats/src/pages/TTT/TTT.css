@@ -1,9 +1,22 @@
-.game {
-    border: 2px solid lightblue;
-    padding: 20px;
-    margin: 80px;
+.gameCont {
+    display: inline-block;
+    justify-content: center;
+    border: 1px solid rgb(43, 168, 252);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    margin-right: 105.45px;
+    margin-left: 105.45px;
+    margin-bottom: 30px;
+    width: 1170px;
+
 }
 
-.game-board {
+h1 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
     justify-content: center;
 }

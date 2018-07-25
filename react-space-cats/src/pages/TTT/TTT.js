@@ -41,7 +41,7 @@ class gameOne extends Component {
       (board[2] === player && board[4] === player && board[6]=== player)
     ){
       return true;
-    } else{
+    } else {
       return null;
     }
   }
@@ -50,7 +50,7 @@ class gameOne extends Component {
     return board.slice(0);
   }
 
-  validMove(move,player, board){
+  validMove(move, player, board){
     let newBoard = this.copyBoard(board);
     if(newBoard[move] === ' '){
       newBoard[move] = player;
@@ -63,7 +63,7 @@ class gameOne extends Component {
   findAiMove(board){
     let bestMoveScore = 100;
     let move = null;
-    //test all possible moves if game isn't over
+    //test allpossible moves if game isn't over
     if(this.winner(board, 'x') || this.winner(board,'o') || this.tie(board)) {
       return null;
     }
@@ -179,13 +179,14 @@ class gameOne extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="menu">
+      <div className="gameCont">
           <h1>Tic-Tac-Toebeans</h1>
+        <div className="menu">
           <Announcement 
           winner={this.state.winner}/>
           <ResetButton reset={this.resetBoard.bind(this)}/>
         </div>
+        
         {this.state.gameBoard.map((value, i) => {
           return (
             <Tile 
