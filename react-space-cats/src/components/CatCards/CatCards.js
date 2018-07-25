@@ -11,7 +11,7 @@ const CatCards = props => (
           <strong>Name:</strong> {props.name}
       </ul>
       <ul>
-        <strong>Class:</strong>
+        <strong>Class: </strong>
         {props.class}
       </ul>
     </div>

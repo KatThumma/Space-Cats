@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 
 @font-face {
-	font-family: 'Monoton', cursive;
-	src: url('https://fonts.googleapis.com/css?family=Monoton');
+	font-family: 'Sunflower', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Sunflower:300');
+	font-weight: bold;
 }
 
 body {
@@ -12,9 +13,10 @@ body {
 }
 
 h1 {
-	font-family: 'Monoton', cursive;
+	font-family: 'Sunflower', sans-serif;
 	text-align: center;
-	font-size: 80px;
+	font-size: 4rem;
+	font-weight: bold;
 }
 
 
