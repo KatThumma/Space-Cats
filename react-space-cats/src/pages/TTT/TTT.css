@@ -1,18 +1,22 @@
-.gameHolder {
+.gameCont {
+    display: inline-block;
+    justify-content: center;
+    border: 1px solid rgb(43, 168, 252);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    margin-right: 105.45px;
+    margin-left: 105.45px;
+    margin-bottom: 30px;
+    width: 1170px;
+
+}
+
+h1 {
     text-align: center;
 }
 
-.gameWrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.menu {
+    display: flex;
+    justify-content: center;
 }
-
-.gameBoard {
-    flex-basis: auto;
-}
-
-.moves {
-    flex-basis: auto
-}
-

@@ -1,0 +1,12 @@
+.tile {
+    width: 30%;
+    height: 150px;
+    font-size: 60px;
+    background: rgba(58, 19, 110, 0.568);
+    border: 1px solid hotpink;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    line-height: 150px;
+    align-content: center;
+}
