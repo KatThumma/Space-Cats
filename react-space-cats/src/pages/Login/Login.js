@@ -156,9 +156,10 @@ class login extends Component {
     // post request to backend
     fetch('/api/account/signin', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
+      // this causes the proxy error we think
+      // headers: {
+      //   'Content-Type': 'application/json'
+      // },
       body: JSON.stringify({
         email: signInEmail,
         password: signInPassword,
@@ -263,7 +264,7 @@ class login extends Component {
             </div>
             <br/>
             <br/>
-            <div classname="signUp">
+            <div className="signUp">
             {
                   (signUpError) ? (
                     <p>{signUpError}</p>

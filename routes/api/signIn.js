@@ -95,13 +95,13 @@ router.post('/api/account/signin', (req, res, next) => {
     if (!email) {
         return res.json({
             success: false,
-            message: 'error: cannot be blank.'
+            message: 'error: email cannot be blank.'
         });
     }
     if (!password) {
         return res.json({
             success: false,
-            message: 'error: cannot be blank.'
+            message: 'error: password cannot be blank.'
         });
     }
 
@@ -154,7 +154,7 @@ router.post('/api/account/signin', (req, res, next) => {
     });
 router.get('/api/account/verify', (req, res, next) => {
 // get token
-// has some errors
+
 const { query } = req;
 const { token } = query;
 // token test?
@@ -201,14 +201,14 @@ router.get('/api/account/logout', (req, res, next) => {
         isDeleted:true}
     }, null, (err, sessions) => {
         if(err) {
-            return res.send({
+            return res.json({
                 success: false,
                 message: 'error: server error'
             });
         }
     
 
-            return res.send({
+            return res.json({
                 success: true,
                 message: 'good'
             });
